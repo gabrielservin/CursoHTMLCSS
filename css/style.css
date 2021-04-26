@@ -1,0 +1,264 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    /* peso de la fuente (valores de 100 o keyword) */
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.5em;
+    /* espacio entre lineas */
+    letter-spacing: -2px;
+    /* espacio entre letras */
+}
+
+h1 strong {
+    color: #ffe227;
+}
+
+
+/* text-transform: uppercase;
+    text-decoration: underline;
+*/
+
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+figure {
+    margin: 0px;
+}
+
+header {
+    background-color: #1b2127;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    height: inherit;
+    /* inherit es para heredar valor del padre*/
+}
+
+.menu ul {
+    height: inherit;
+}
+
+.menu ul li {
+    height: inherit;
+}
+
+.menu ul li a {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.home {
+    height: 380px;
+    background-color: #845ec2;
+    display: flex;
+    align-items: center;
+}
+
+.home img {
+    object-fit: cover;
+}
+
+.we-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.we-title {
+    padding: 0 20px;
+}
+
+.we-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.we-article {
+    border-radius: 10px;
+    margin: 10px;
+    width: 480px;
+    text-align: center;
+    overflow: hidden;
+    /* para que si desborda el elemento este se haga invisible*/
+    /* flex-shrink: 0; para que los elementos ocupen el 100% de su valor*/
+    background-color: #a3d2ca;
+}
+
+.we-detail {
+    background-color: #fff;
+    margin: 20px;
+    margin-top: -80px;
+    position: relative;
+    padding: 10px;
+}
+
+.we-image {
+    width: 480px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.we-url {
+    color: #a3d2ca;
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.solution-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.solution-title {
+    padding: 0 20px;
+}
+
+.solution-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.solution {
+    margin: 15px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.solution-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact {
+    background-color: #29bb89;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-title {
+    padding: 0px 20px;
+}
+
+.input-mail {
+    background-color: #fff;
+    padding: 5px 5px 5px 30px;
+    border-radius: 5px;
+    border-style: solid;
+    background-image: url(../images/footer-icono.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    margin-left: 20px;
+}
+
+.input-button {
+    display: flex;
+    background: transparent;
+    color: #fff;
+    margin: 10px 0px 0px 20px;
+    padding: 5px 30px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.social {
+    padding: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-link {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-size: 50px 50px;
+}
+
+.social-link.twitter {
+    background-image: url('../images/twitter.png');
+}
+
+.social-link.facebook {
+    background-image: url('../images/facebook.png');
+}
+
+.social-link.instagram {
+    background-image: url('../images/instagram.png');
+}
+
+.social-link.github {
+    background-image: url('../images/github.png');
+}
+
+.footer {
+    background-color: #1b2127;
+    color: #fff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+    padding: 0px 10px;
+}
+
+.footer p {
+    padding: 0px 10px;
+}
+
+.footer p a {
+    color: #fff;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-direction: inherit;
+}
